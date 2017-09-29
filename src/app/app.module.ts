@@ -18,6 +18,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { EndcComponent } from './components/endc/endc.component';
 import { HomeComponent } from './components/home/home.component';
+import { CarouselComponent } from './components/shared/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HomeComponent } from './components/home/home.component';
     GalleryComponent,
     NavbarComponent,
     EndcComponent,
-    HomeComponent
+    HomeComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
